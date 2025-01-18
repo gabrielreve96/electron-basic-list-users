@@ -1,0 +1,20 @@
+{
+  "name": "todo-basico",
+  "version": "1.0.0",
+  "description": "todo-basico",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nodemon --watch . --exec  electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^34.0.0",
+    "electron-reload": "^2.0.0-alpha.1"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
